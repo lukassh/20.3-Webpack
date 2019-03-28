@@ -5,11 +5,21 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack"
+    "start": "webpack",
+    "build": "webpack --env production"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "@babel/preset-env": "^1.7.0",
+    "@babel/preset-reactt": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "style-loader": "^0.23.1",
+    "uuid": "^3.3.2",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
   }
